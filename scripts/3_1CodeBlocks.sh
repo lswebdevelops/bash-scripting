@@ -17,6 +17,9 @@ echo -e "\n$line2\n"
 echo "Third line in $File is: "
 echo -e "\n$line3\n"
 
+# Now, how do you parse the separate fields of each line?
+# Hint: use awk, or . . .
+# . . . Hans-Joerg Diers suggests using the "set" Bash builtin.
 
 #Read the file line by line
 while IFS= read -r line; do
@@ -34,7 +37,5 @@ done < $File
 
 exit 0
 
-# Now, how do you parse the separate fields of each line?
-# Hint: use awk, or . . .
-# . . . Hans-Joerg Diers suggests using the "set" Bash builtin.
+
 
