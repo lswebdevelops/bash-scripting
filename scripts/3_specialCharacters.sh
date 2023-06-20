@@ -1,6 +1,6 @@
 #!/bin/bash
 # 
-testing special Characters
+#testing special Characters
 # creates file test.txt if not there
 filename="test.txt"
 echo hello; echo there 
