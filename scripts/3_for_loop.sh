@@ -7,8 +7,6 @@ for file in /{,usr/}bin/*calc
 do 
     if [ -x "$file" ]
     then
-        echo $file
+        echo $?file
     fi 
 done
-
-
